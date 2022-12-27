@@ -5,11 +5,22 @@ public class MainClass
     //Основной метод
     public static void Main()
     {
+        //Ниже закоментирован код, отвечающий за тестирование различных методов
+        
+        //1. Проверка приветствия
         //Hello();
+        
+        //2. Проверка основных арифметических операций
         //Arithmetic();
-        Console.WriteLine("Проверяем преобразование из демятичной ситемы в шестнадцатиричную");
-        int decNumber = 256;
-        Console.WriteLine($"Исходное число: {decNumber}, в шестнадцатиричной: {decimalToHex(decNumber)}");        
+        
+        //3. Проверяем работу конвертера
+        //Console.WriteLine("Проверяем преобразование из демятичной ситемы в шестнадцатиричную");
+        //int decNumber = 256;
+        //Console.WriteLine($"Исходное число: {decNumber}, в шестнадцатиричной: {decimalToHex(decNumber)}");
+        
+        //4.Проверяем работу функции минимума
+        Console.WriteLine("Введите последовательность чисел через пробел");
+        Console.WriteLine($"Наименьшее число - это {simpleMin(Console.ReadLine())}");
     }
     //Приветствие
     public static void Hello(){
@@ -53,5 +64,24 @@ public class MainClass
         }
         
         return result;
+    }
+    //Метод находит минимальное число, на вход подаётся строка
+    public static double simpleMin(string input) {
+        string[] splitString = input.Split(' ');
+        double[] doubleInput = new double[splitString.Length];
+        int i = 0;
+        double min = 0;
+        while(i < splitString.Length)
+        {
+            doubleInput[i] = Convert.ToDouble(splitString[i]);
+            if (i == 0) {
+                min = doubleInput[i];
+            }
+            else if (doubleInput[i] < min){
+                min = doubleInput[i];
+            }
+            i++;
+        }
+        return min;
     }
 }
