@@ -9,7 +9,7 @@ public class MainClass
         //Метод должен вывести в консоль числа между нулями в порядке убывания
         //FindFromZeroToZero(input_arr);
 
-        string input_str = "купиновуюрулетку";
+        string input_str = "простокакой-тотекстдлятогочтобыпроверитьработукода";
         string output_str = SimpleCoder(input_str);
         Console.WriteLine(output_str);
 
@@ -57,7 +57,8 @@ public class MainClass
 
         //Чтобы не выделять каждый раз заново место, формируем строго заданный масив 
         char[] for_create_output = new char[NeedCharsNumber(input_str.Length) + 2*CharAndIndex.Count + input_str.Length]; 
-
+        
+        //Заполняем массив необходимыми символами и пробелами
         int i = 0;
         foreach (char key in CharAndIndex.Keys) {
             for_create_output[i] = key;
@@ -77,6 +78,7 @@ public class MainClass
         
     }
     
+    //Метод служит для того, чтобы расчитать количество символов, необходимых для вывода числовой последовательности
     static int NeedCharsNumber(int number){
         if (number < 10) return number;
         if (number < 100) return 10 + 2*(number - 9);
