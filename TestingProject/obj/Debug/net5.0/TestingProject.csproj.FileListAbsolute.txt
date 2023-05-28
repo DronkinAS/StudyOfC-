@@ -1,0 +1,16 @@
+E:\GitRep\C#\StudyOfCSharp\TestingProject\obj\Debug\net5.0\TestingProject.csprojAssemblyReference.cache
+E:\GitRep\C#\StudyOfCSharp\TestingProject\obj\Debug\net5.0\TestingProject.GeneratedMSBuildEditorConfig.editorconfig
+E:\GitRep\C#\StudyOfCSharp\TestingProject\obj\Debug\net5.0\TestingProject.AssemblyInfoInputs.cache
+E:\GitRep\C#\StudyOfCSharp\TestingProject\obj\Debug\net5.0\TestingProject.AssemblyInfo.cs
+E:\GitRep\C#\StudyOfCSharp\TestingProject\obj\Debug\net5.0\TestingProject.csproj.CoreCompileInputs.cache
+E:\GitRep\C#\StudyOfCSharp\TestingProject\bin\Debug\net5.0\TestingProject.exe
+E:\GitRep\C#\StudyOfCSharp\TestingProject\bin\Debug\net5.0\TestingProject.deps.json
+E:\GitRep\C#\StudyOfCSharp\TestingProject\bin\Debug\net5.0\TestingProject.runtimeconfig.json
+E:\GitRep\C#\StudyOfCSharp\TestingProject\bin\Debug\net5.0\TestingProject.runtimeconfig.dev.json
+E:\GitRep\C#\StudyOfCSharp\TestingProject\bin\Debug\net5.0\TestingProject.dll
+E:\GitRep\C#\StudyOfCSharp\TestingProject\bin\Debug\net5.0\ref\TestingProject.dll
+E:\GitRep\C#\StudyOfCSharp\TestingProject\bin\Debug\net5.0\TestingProject.pdb
+E:\GitRep\C#\StudyOfCSharp\TestingProject\obj\Debug\net5.0\TestingProject.dll
+E:\GitRep\C#\StudyOfCSharp\TestingProject\obj\Debug\net5.0\ref\TestingProject.dll
+E:\GitRep\C#\StudyOfCSharp\TestingProject\obj\Debug\net5.0\TestingProject.pdb
+E:\GitRep\C#\StudyOfCSharp\TestingProject\obj\Debug\net5.0\TestingProject.genruntimeconfig.cache
